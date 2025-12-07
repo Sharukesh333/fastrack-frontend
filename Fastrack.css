@@ -1,0 +1,301 @@
+
+       
+       body{
+            background-color: #ea602ee6;
+            background-image: url(./im/OIP.jpg);
+            margin: none;
+        }
+        .top {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ea602ee6;
+        position:sticky;
+        top:0;  
+        z-index:1; 
+        }
+        .title{
+            padding-left: 70px;
+            font-weight:bolder;
+            letter-spacing:70px;
+            font-family:Bebas Neue;
+        }
+        .about{
+
+        display: flex;
+        gap: 50px;           
+        padding-top: 7px;
+        padding-right: 50px;
+        font-size: 19px;
+        font-family: 'Orbitron';
+        cursor: pointer;
+        h4{
+            transition: all .5 ease;
+        }
+        a{
+            color: #140000;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #f5f4f2;
+        }
+}
+
+
+        h2{
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(0, 5, 8); 
+            color: #ea612edf;
+            width: max-content;
+            margin: auto;     
+        }
+
+        img{
+            border: 10px rgb(11, 3, 0) double; 
+            border-radius: 100px;
+            width: 75%;
+            text-align: center;
+            
+        }
+        /* Top header image area */
+            .logo-box{
+                width: 85%;
+                background-color: #130101;
+                border: 10px #ea612edf double;
+                border-radius: 30px;
+                text-align: center;
+                transition: all 0.2s ease-in-out;
+                margin-left:100px;
+                margin-top:40px;
+                margin-bottom: 50px;
+
+        }
+        
+            .logo-box:hover{
+                scale: 1.07;
+            }
+
+        /* Grid for Men / Women images */
+        .container{
+            width: 95%;
+            margin: auto;
+            display: flex;
+            justify-content:space-between;
+            flex-wrap:wrap-reverse;
+            padding: 10px;
+            margin-left: 40px;
+
+        }
+        .container{
+            img{
+                transition: all 0.2s ease-out;
+            }
+            img:hover{
+                scale: 1.1;
+                rotate: 3deg;
+                
+            }
+        }
+
+        .Image1{
+            width: 20%;
+            height: 300px;
+            object-fit:fill;
+            margin-top: 20px;
+            margin-bottom:30px;
+            border: 7px rgb(16, 16, 1) double;
+            filter: drop-shadow(30px 20px 20px rgb(4, 4, 4));
+        }
+
+        .Image2{
+            width: 29%;
+            height: 300px;
+            object-fit:fill;
+            margin-top: 50px;
+            margin-bottom: 35px;
+            border: 7px rgb(16, 16, 1) double;
+            justify-content:space-around;
+            filter: drop-shadow(30px 20px 20px rgb(18, 18, 18));
+        }
+        .image3{
+            width: 20%;
+            height: 300px;
+            object-fit: fill;
+            margin-top: 45px;
+            margin: 20px;
+            border: 7px rgb(16, 16, 1) double;
+            filter: drop-shadow(30px 20px 20px rgb(9, 0, 0));
+
+        }
+        #centre1{
+            height:350px
+        }
+        .container_1{
+            display: flex;
+            justify-content:space-around;      
+        }
+        .cart{
+            margin-top: 25px;
+            padding:10px;
+            background-color: black;
+            color: #ea612edf;
+            border-radius: 10px;
+            cursor:pointer;
+            font-weight: bold;
+            margin-bottom:6px;
+            margin-left: 36px;
+    
+        }
+        .cart:hover{
+            background-color:#ea612edf;
+            color: rgb(11, 0, 0);
+            font-weight: bold;
+            border-radius: 10px;
+            cursor:pointer; 
+            box-shadow:5px 5px 10px rgb(13, 13, 13) ;
+        }
+        .cart:active{
+            background-color: #130101;
+            color:#ea612edf;
+        }
+        .button1{
+            justify-content: space-around;
+            display: flex;
+        }
+        .buy{
+            padding: 10px;
+            padding-right: 40px;
+            padding-left: 40px;
+            border-radius: 10px;
+            margin-bottom: 45px;
+            background-color: black;
+            color: #ea612edf;
+            font-weight: bold;
+            margin-left: 55px;
+            font-size: medium;
+            
+        }
+        .buy:hover{
+            background-color: #ea612edf;
+            color: rgb(11, 0, 0);
+            font-weight: bold;
+            border-radius: 10px;
+            cursor:pointer; 
+            box-shadow:5px 5px 10px rgb(13, 13, 13) ;
+
+        }
+        .buy:active{
+            background-color: #130101;
+            color:#ea612edf;
+
+        }
+     
+.heart-container input {
+    display:none;
+}
+
+.heart {
+    font-size: 30px;
+    color: #f5f4f2;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom:0px;
+}
+.heart:active{
+            background-color:#ea602eda;
+            border-radius: 10px;
+            color: #ff0000;
+        }
+
+.heart-container input:checked + .heart {
+    color: red;
+
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    margin-top:4px;
+    margin-left: 30px;
+
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    letter-spacing: 4px;
+}
+#cost{
+    color: #fffffe;
+    font-weight:bold;
+    font-size: 35px;
+    border-radius: 10px;
+    margin-top: 2px;
+
+}
+#strike{
+    color: #140000;
+    font-weight: lighter;
+    font-size: 25px;
+}
+h3{
+    font-size:35px;
+    color: #f7f6f4;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,"Noto Sans Math", "Cambria Math", serif; 
+    margin-bottom: 5px;   
+}
+.abt{
+    background-color: white;
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+}
+.abt img{
+    border:none;
+    border-radius: 0px;
+    
+    
+}
+.abtlogo {
+    position: absolute;
+    top: 8vh;
+    width: 23vw;
+    height: 20vh;
+    left: 7vw;
+}
+.insta{
+
+    top :14vh;
+    position: absolute;
+    display: flex;
+    gap: 5vw;
+
+}
+.insta img{
+    height:5vh;
+    width: 2vw;
+}
+.abtcont{
+    display: flex;
+    padding-left: 30%;
+    gap: 12vw;
+
+}
+.cstmserv{
+    padding-top: 3%;
+}
+#c{
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+#mail{
+    background-color:#f0480adf ;
+    width: 100vw;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+}
+
+
